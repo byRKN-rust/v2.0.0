@@ -1,0 +1,9 @@
+
+image: Visual Studio 2022
+
+build:
+  project: MW_Launcher.sln
+  verbosity: minimal
+
+artifacts:
+  - path: MW_Launcher\bin\Release\net6.0\MW_Launcher.exe
